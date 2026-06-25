@@ -29,7 +29,7 @@ header nav a {
 
 /* ================================ HERO ================================ */
 .hero {
-    background-image: url("images/hero-triptyque.jpg");
+    background-image: url("Images/hero-triptyque.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
