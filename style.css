@@ -1,4 +1,33 @@
-/* HERO */
+/* ================================ GLOBAL ================================ */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ================================ HEADER ================================ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ================================ HERO ================================ */
 .hero {
     background-image: url("images/hero-triptyque.jpg");
     background-size: cover;
@@ -11,7 +40,24 @@
     color: white;
 }
 
-/* GALERIE */
+.hero-text {
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* ================================ GALERIE ================================ */
 #galerie {
     padding: 60px 20px;
 }
@@ -27,7 +73,7 @@
     border-radius: 8px;
 }
 
-/* À PROPOS */
+/* ================================ À PROPOS ================================ */
 .apropos-container {
     display: flex;
     gap: 20px;
@@ -40,7 +86,7 @@
     border-radius: 8px;
 }
 
-/* BOUTIQUE */
+/* ================================ BOUTIQUE ================================ */
 #boutique {
     padding: 60px 20px;
 }
@@ -56,3 +102,8 @@
     border-radius: 8px;
 }
 
+/* ================================ CONTACT ================================ */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
